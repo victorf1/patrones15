@@ -1,0 +1,29 @@
+Patrones de Diseño de Construcción:
+
+Corresponden a patrones de diseño software que solucionan problemas de creación de instancias. Nos ayudan a encapsular
+y abstraer dicha creación.
+
+Abstract Factory (fábrica abstracta): permite trabajar con objetos de distintas familias de manera que las familias no
+se mezclen entre sí y haciendo transparente el tipo de familia concreta que se esté usando. El problema a solucionar 
+por este patrón es el de crear diferentes familias de objetos, como por ejemplo la creación de interfaces gráficas 
+de distintos tipos (ventana, menú, botón, etc.).
+
+Builder (constructor virtual): abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un 
+único punto.
+
+Factory Method (método de fabricación): centraliza en una clase constructora la creación de objetos de un subtipo de 
+un tipo determinado, ocultando al usuario la casuística, es decir, la diversidad de casos particulares que se pueden 
+prever, para elegir el subtipo que crear. Parte del principio de que las subclases determinan la clase a implementar.
+
+Prototype (prototipo): crea nuevos objetos clonándolos de una instancia ya existente.
+
+Singleton (instancia única): garantiza la existencia de una única instancia para una clase y la creación de 
+un mecanismo de acceso global a dicha instancia. Restringe la instanciación de una clase o valor de un tipo a un solo 
+objeto.
+
+Model View Controller (MVC) : Es un patrón de arquitectura de software que separa los datos y la lógica de negocio de
+una aplicación de la interfaz de usuario y el módulo encargado de gestionar los eventos y las comunicaciones. 
+Este patrón plantea la separación del problema en tres capas: la capa model, que representa la realidad; la capa 
+controller , que conoce los métodos y atributos del modelo, recibe y realiza lo que el usuario quiere hacer;
+y la capa vista, que muestra un aspecto del modelo y es utilizada por la capa anterior para interaccionar con 
+el usuario.
